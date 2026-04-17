@@ -1,0 +1,15 @@
+M48
+; #@! TF.GenerationSoftware,LibrePCB,LibrePCB,2.0.1
+; #@! TF.CreationDate,2026-04-17T23:48:40
+; #@! TF.ProjectId,Lab-Lamp,1f94bfc4-d831-43e1-86c0-4bc184f53f1f,v1
+; #@! TF.Part,Single
+; #@! TF.SameCoordinates
+; #@! TF.FileFunction,NonPlated,1,2,NPTH
+FMAT,2
+METRIC,TZ
+%
+G90
+G05
+M71
+T0
+M30
