@@ -1,0 +1,24 @@
+M48
+; #@! TF.GenerationSoftware,LibrePCB,LibrePCB,2.1.0
+; #@! TF.CreationDate,2026-05-25T16:11:16
+; #@! TF.ProjectId,LED-Spot,3c1585ae-4d95-495e-8c35-7f5f3331ca9b,v1
+; #@! TF.Part,Single
+; #@! TF.SameCoordinates
+; #@! TF.FileFunction,NonPlated,1,2,NPTH
+FMAT,2
+METRIC,TZ
+; #@! TA.AperFunction,MechanicalDrill
+T1C2.0
+%
+G90
+G05
+M71
+T1
+X-13.682909Y-3.6
+X-6.235091Y-7.9
+X6.235091Y-7.9
+X13.682909Y-3.6
+X-4.3Y11.5
+X4.3Y11.5
+T0
+M30

@@ -1,0 +1,16 @@
+LED-Spot_v1.step | 62a36a87-942b-4529-bb44-1024835b7c9d
+LED-Spot_v1.zip | 163e73d1-1a4d-428f-b5d9-848fd06293aa
+LED-Spot_v1_Schematic.pdf | d9284dc5-1d72-454a-8548-6179b3fd6d4f
+assembly/LED-Spot_v1_BOM_Std.csv | 75a064b7-d321-4e19-bfda-3faafc9b9adb
+assembly/LED-Spot_v1_BOM_Std.html | e8d593f4-4a37-4e8d-822b-ad10fb0a0230
+gerber/LED-Spot_v1_COPPER-BOTTOM.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_COPPER-TOP.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_DRILLS-NPTH.drl | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_DRILLS-PTH.drl | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_OUTLINES.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_SILKSCREEN-BOTTOM.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_SILKSCREEN-TOP.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_SOLDERMASK-BOTTOM.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_SOLDERMASK-TOP.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_SOLDERPASTE-BOTTOM.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697
+gerber/LED-Spot_v1_SOLDERPASTE-TOP.gbr | afc9d1ca-bbb1-4c0b-b84f-15d2b318d697

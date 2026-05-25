@@ -9,28 +9,17 @@
   (min_copper_width 0.0)
   (min_via_drill_diameter 0.0)
  )
- (net 3ff8aa3e-5762-470b-acfd-c9944dd1ed48 (auto true) (name "N1")
+ (net 78bf7fe5-d448-4c92-9081-1630e605b4ec (auto true) (name "N1")
+  (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
+ )
+ (net a171326c-a362-42d0-970d-a2b362768273 (auto true) (name "N5")
   (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
  )
  (net b6061c00-253d-49b0-864c-cf5c99c1a2b9 (auto true) (name "N3")
   (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
  )
- (net c7e4c26d-0ce2-4608-bf6d-09fac3bc90e8 (auto true) (name "N2")
-  (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
- )
  (net e4567ca2-ac7a-4b6a-8c73-37a557972aaa (auto true) (name "N4")
   (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
- )
- (component 0d9df616-1663-40d9-b8c8-62f23cfded26
-  (lib_component ab344e7c-b740-4f2a-b21a-f7b1c433f990)
-  (lib_variant ee92375f-b17d-4d79-84d9-4df2c4aed57a)
-  (name "J1") (value "{{MPN}}")
-  (lock_assembly false)
-  (device 9cdf7b89-817b-4b3f-82dd-97c2f08fec63
-   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
-  )
-  (signal 4b7490ca-af89-4dd9-beff-9edc631e7d9b (net c7e4c26d-0ce2-4608-bf6d-09fac3bc90e8))
-  (signal 9e3c2d0e-7bc0-42e9-a562-f21ef061126a (net 3ff8aa3e-5762-470b-acfd-c9944dd1ed48))
  )
  (component 1f2b0f6c-e162-439b-a638-b6097f57d845
   (lib_component b91cf23a-4f07-4b99-8f52-0b42304aef20)
@@ -57,6 +46,15 @@
   )
   (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net none))
  )
+ (component 291ecc10-19c4-4ae6-ada2-f86f5b17c965
+  (lib_component 5c0f6cd9-dced-46ae-8098-6cccaa8726ec)
+  (lib_variant 7b4b843f-818e-41c9-ba73-0a7e21bb3d05)
+  (name "H4") (value "{{DEVICE}}")
+  (lock_assembly false)
+  (device 15a47cca-d452-48e4-9bde-51b90e89dc35
+  )
+  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net 78bf7fe5-d448-4c92-9081-1630e605b4ec))
+ )
  (component 2d91f1db-1914-4c35-bce3-f9cc9e9a682d
   (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
   (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
@@ -66,8 +64,16 @@
   (device 1ea4f056-7c1d-496b-860d-ebb131a0cba2
    (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
-  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net c7e4c26d-0ce2-4608-bf6d-09fac3bc90e8))
+  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 78bf7fe5-d448-4c92-9081-1630e605b4ec))
   (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net b6061c00-253d-49b0-864c-cf5c99c1a2b9))
+ )
+ (component 3a9ef65f-5245-4763-b5a8-1075f0ca9813
+  (lib_component 58451453-78c4-4a0e-9e73-728eee12a831)
+  (lib_variant d5022002-cf9d-4054-8c21-83435c340152)
+  (name "LOGO2") (value "{{DEVICE}}")
+  (lock_assembly false)
+  (device ee0f4a16-bb7c-4699-b50e-12597273e0d2
+  )
  )
  (component 6172b0e0-6bf0-4604-ad91-bf0ab3413c95
   (lib_component 2cf05ac9-a5b1-4ec7-b4f8-6846688445c1)
@@ -84,7 +90,7 @@
   (lock_assembly false)
   (device 15a47cca-d452-48e4-9bde-51b90e89dc35
   )
-  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net none))
+  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net a171326c-a362-42d0-970d-a2b362768273))
  )
  (component a16f67fa-f3c8-43c6-b952-4c3f95ccf417
   (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
@@ -116,7 +122,7 @@
    (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
   (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net e4567ca2-ac7a-4b6a-8c73-37a557972aaa))
-  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net 3ff8aa3e-5762-470b-acfd-c9944dd1ed48))
+  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net a171326c-a362-42d0-970d-a2b362768273))
  )
  (component d0138e6c-239e-45f9-987a-4b7c4e7e04ba
   (lib_component 98e71eaa-1b90-4a84-8529-ed4f493e5c41)

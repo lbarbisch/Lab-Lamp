@@ -1,0 +1,22 @@
+M48
+; #@! TF.GenerationSoftware,LibrePCB,LibrePCB,2.1.0
+; #@! TF.CreationDate,2026-05-25T16:11:16
+; #@! TF.ProjectId,LED-Spot,3c1585ae-4d95-495e-8c35-7f5f3331ca9b,v1
+; #@! TF.Part,Single
+; #@! TF.SameCoordinates
+; #@! TF.FileFunction,Plated,1,2,PTH
+FMAT,2
+METRIC,TZ
+; #@! TA.AperFunction,ComponentDrill
+T1C3.2
+%
+G90
+G05
+M71
+T1
+X-18.0Y6.0
+X18.0Y6.0
+X18.0Y-6.0
+X-18.0Y-6.0
+T0
+M30
