@@ -9,7 +9,7 @@
   (min_copper_width 0.0)
   (min_via_drill_diameter 0.0)
  )
- (net 78bf7fe5-d448-4c92-9081-1630e605b4ec (auto true) (name "N1")
+ (net 6ad5a9ce-3212-4b99-8d0b-2d2af7eda67a (auto true) (name "N2")
   (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
  )
  (net a171326c-a362-42d0-970d-a2b362768273 (auto true) (name "N5")
@@ -35,6 +35,7 @@
   (name "MECH1") (value "{{MPN}}")
   (lock_assembly false)
   (device 2bc11d49-49c7-4cf3-b1d9-9096fd7687a0
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
  )
  (component 28bf7ea9-2158-4fab-b970-02a9b5795621
@@ -44,7 +45,7 @@
   (lock_assembly false)
   (device 15a47cca-d452-48e4-9bde-51b90e89dc35
   )
-  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net none))
+  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net 6ad5a9ce-3212-4b99-8d0b-2d2af7eda67a))
  )
  (component 291ecc10-19c4-4ae6-ada2-f86f5b17c965
   (lib_component 5c0f6cd9-dced-46ae-8098-6cccaa8726ec)
@@ -53,7 +54,7 @@
   (lock_assembly false)
   (device 15a47cca-d452-48e4-9bde-51b90e89dc35
   )
-  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net 78bf7fe5-d448-4c92-9081-1630e605b4ec))
+  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net none))
  )
  (component 2d91f1db-1914-4c35-bce3-f9cc9e9a682d
   (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
@@ -64,7 +65,7 @@
   (device 1ea4f056-7c1d-496b-860d-ebb131a0cba2
    (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
-  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 78bf7fe5-d448-4c92-9081-1630e605b4ec))
+  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 6ad5a9ce-3212-4b99-8d0b-2d2af7eda67a))
   (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net b6061c00-253d-49b0-864c-cf5c99c1a2b9))
  )
  (component 3a9ef65f-5245-4763-b5a8-1075f0ca9813
@@ -81,6 +82,7 @@
   (name "MECH3") (value "{{MPN}}")
   (lock_assembly false)
   (device 2bc11d49-49c7-4cf3-b1d9-9096fd7687a0
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
  )
  (component 7889ca56-a09c-4f9a-b890-56e3b47f4071
@@ -110,6 +112,7 @@
   (name "MECH2") (value "{{MPN}}")
   (lock_assembly false)
   (device 2bc11d49-49c7-4cf3-b1d9-9096fd7687a0
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
  )
  (component b995bb5c-7ecb-46c9-a630-f6715945dc93
