@@ -9,17 +9,38 @@
   (min_copper_width 0.0)
   (min_via_drill_diameter 0.0)
  )
- (net 6ad5a9ce-3212-4b99-8d0b-2d2af7eda67a (auto true) (name "N2")
+ (net 16ca8314-fdc7-4b10-ac8f-5c5891a794c4 (auto true) (name "N1")
   (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
  )
- (net a171326c-a362-42d0-970d-a2b362768273 (auto true) (name "N5")
+ (net 5700206d-f357-4229-ae67-56581df9003e (auto true) (name "N5")
   (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
  )
- (net b6061c00-253d-49b0-864c-cf5c99c1a2b9 (auto true) (name "N3")
+ (net 659228c2-9ec9-47e9-9e78-b476a9b3139e (auto true) (name "N4")
   (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
  )
- (net e4567ca2-ac7a-4b6a-8c73-37a557972aaa (auto true) (name "N4")
+ (net 6dfe04df-c41d-40be-83cf-a653b75d9814 (auto true) (name "N6")
   (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
+ )
+ (net 8d69bd92-66a6-4064-8ae6-4792a28d5fca (auto true) (name "N2")
+  (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
+ )
+ (net a7d43bd0-ec38-4fa9-9905-788925afb41c (auto false) (name "K")
+  (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
+ )
+ (net d51058a4-277f-4a56-b7a4-0057c09963ef (auto false) (name "A")
+  (netclass 0533f9df-ee41-487c-bf6a-55789e2204a6)
+ )
+ (component 1a7ae3ca-5a07-4593-b33b-d8334a305a7a
+  (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
+  (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
+  (name "LED6") (value "{{MPN or COLOR}}")
+  (lock_assembly false)
+  (attribute "COLOR" (type string) (unit none) (value ""))
+  (device 1ea4f056-7c1d-496b-860d-ebb131a0cba2
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
+  )
+  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net a7d43bd0-ec38-4fa9-9905-788925afb41c))
+  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net 6dfe04df-c41d-40be-83cf-a653b75d9814))
  )
  (component 1f2b0f6c-e162-439b-a638-b6097f57d845
   (lib_component b91cf23a-4f07-4b99-8f52-0b42304aef20)
@@ -38,24 +59,6 @@
    (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
  )
- (component 28bf7ea9-2158-4fab-b970-02a9b5795621
-  (lib_component 5c0f6cd9-dced-46ae-8098-6cccaa8726ec)
-  (lib_variant 7b4b843f-818e-41c9-ba73-0a7e21bb3d05)
-  (name "H2") (value "{{DEVICE}}")
-  (lock_assembly false)
-  (device 15a47cca-d452-48e4-9bde-51b90e89dc35
-  )
-  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net 6ad5a9ce-3212-4b99-8d0b-2d2af7eda67a))
- )
- (component 291ecc10-19c4-4ae6-ada2-f86f5b17c965
-  (lib_component 5c0f6cd9-dced-46ae-8098-6cccaa8726ec)
-  (lib_variant 7b4b843f-818e-41c9-ba73-0a7e21bb3d05)
-  (name "H4") (value "{{DEVICE}}")
-  (lock_assembly false)
-  (device 15a47cca-d452-48e4-9bde-51b90e89dc35
-  )
-  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net none))
- )
  (component 2d91f1db-1914-4c35-bce3-f9cc9e9a682d
   (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
   (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
@@ -65,8 +68,8 @@
   (device 1ea4f056-7c1d-496b-860d-ebb131a0cba2
    (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
-  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 6ad5a9ce-3212-4b99-8d0b-2d2af7eda67a))
-  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net b6061c00-253d-49b0-864c-cf5c99c1a2b9))
+  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 659228c2-9ec9-47e9-9e78-b476a9b3139e))
+  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net 16ca8314-fdc7-4b10-ac8f-5c5891a794c4))
  )
  (component 3a9ef65f-5245-4763-b5a8-1075f0ca9813
   (lib_component 58451453-78c4-4a0e-9e73-728eee12a831)
@@ -85,14 +88,35 @@
    (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
  )
- (component 7889ca56-a09c-4f9a-b890-56e3b47f4071
-  (lib_component 5c0f6cd9-dced-46ae-8098-6cccaa8726ec)
-  (lib_variant 7b4b843f-818e-41c9-ba73-0a7e21bb3d05)
-  (name "H3") (value "{{DEVICE}}")
+ (component 620572d3-24d5-4325-b176-468c52e2364b
+  (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
+  (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
+  (name "LED5") (value "{{MPN or COLOR}}")
   (lock_assembly false)
-  (device 15a47cca-d452-48e4-9bde-51b90e89dc35
+  (attribute "COLOR" (type string) (unit none) (value ""))
+  (device 1ea4f056-7c1d-496b-860d-ebb131a0cba2
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
-  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net a171326c-a362-42d0-970d-a2b362768273))
+  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 6dfe04df-c41d-40be-83cf-a653b75d9814))
+  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net 5700206d-f357-4229-ae67-56581df9003e))
+ )
+ (component 63d7be1a-877c-4901-96e4-7af07415483c
+  (lib_component e2659029-10eb-42f4-af23-41301bb12569)
+  (lib_variant 7b507447-3af6-4735-979d-7d88e3f0a292)
+  (name "TP1") (value "")
+  (lock_assembly false)
+  (device a69cbeeb-dfdb-4994-88ec-3fa2f1664095
+  )
+  (signal 1971710b-f66e-4a90-9a87-6d1affef5cd0 (net a7d43bd0-ec38-4fa9-9905-788925afb41c))
+ )
+ (component 9d0ee55e-f34c-4d49-9777-a05e01cdf4d1
+  (lib_component 2cf05ac9-a5b1-4ec7-b4f8-6846688445c1)
+  (lib_variant b526322f-8459-4143-bac7-89dc7234753f)
+  (name "MECH6") (value "{{MPN}}")
+  (lock_assembly false)
+  (device 2bc11d49-49c7-4cf3-b1d9-9096fd7687a0
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
+  )
  )
  (component a16f67fa-f3c8-43c6-b952-4c3f95ccf417
   (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
@@ -103,8 +127,8 @@
   (device 1ea4f056-7c1d-496b-860d-ebb131a0cba2
    (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
-  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net b6061c00-253d-49b0-864c-cf5c99c1a2b9))
-  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net e4567ca2-ac7a-4b6a-8c73-37a557972aaa))
+  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 16ca8314-fdc7-4b10-ac8f-5c5891a794c4))
+  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net 8d69bd92-66a6-4064-8ae6-4792a28d5fca))
  )
  (component ab2c6a79-4c00-485a-bbdd-2c1ea9a4faad
   (lib_component 2cf05ac9-a5b1-4ec7-b4f8-6846688445c1)
@@ -124,8 +148,8 @@
   (device 1ea4f056-7c1d-496b-860d-ebb131a0cba2
    (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
-  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net e4567ca2-ac7a-4b6a-8c73-37a557972aaa))
-  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net a171326c-a362-42d0-970d-a2b362768273))
+  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 8d69bd92-66a6-4064-8ae6-4792a28d5fca))
+  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net d51058a4-277f-4a56-b7a4-0057c09963ef))
  )
  (component d0138e6c-239e-45f9-987a-4b7c4e7e04ba
   (lib_component 98e71eaa-1b90-4a84-8529-ed4f493e5c41)
@@ -139,13 +163,43 @@
   (attribute "FIELD_AUTHOR" (type string) (unit none) (value "{{ SCH_FRAME_AUTHOR or AUTHOR }}"))
   (attribute "FIELD_PAGE" (type string) (unit none) (value "{{ SCH_FRAME_PAGE_X_OF_Y or PAGE_X_OF_Y }}"))
  )
- (component f42dd6af-d4da-4779-86d4-9bbb06b563ab
-  (lib_component 5c0f6cd9-dced-46ae-8098-6cccaa8726ec)
-  (lib_variant 7b4b843f-818e-41c9-ba73-0a7e21bb3d05)
-  (name "H1") (value "{{DEVICE}}")
+ (component d033e31c-7294-46fb-ba96-007f59c7f81e
+  (lib_component 2b24b18d-bd95-4fb4-8fe6-bce1d020ead4)
+  (lib_variant ed0f0ca2-43ff-4a10-94c2-2958bc336586)
+  (name "LED4") (value "{{MPN or COLOR}}")
   (lock_assembly false)
-  (device 15a47cca-d452-48e4-9bde-51b90e89dc35
+  (attribute "COLOR" (type string) (unit none) (value ""))
+  (device 1ea4f056-7c1d-496b-860d-ebb131a0cba2
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
   )
-  (signal c8721bab-6c90-43f6-8135-c32fce7aecc0 (net none))
+  (signal 7b023430-b68f-403a-80b8-c7deb12e7a0c (net 5700206d-f357-4229-ae67-56581df9003e))
+  (signal f1467b5c-cc7d-44b4-8076-d729f35b3a6a (net 659228c2-9ec9-47e9-9e78-b476a9b3139e))
+ )
+ (component db3bb4b5-188b-4813-a4d3-89a177e0b81a
+  (lib_component e2659029-10eb-42f4-af23-41301bb12569)
+  (lib_variant 7b507447-3af6-4735-979d-7d88e3f0a292)
+  (name "TP2") (value "")
+  (lock_assembly false)
+  (device a69cbeeb-dfdb-4994-88ec-3fa2f1664095
+  )
+  (signal 1971710b-f66e-4a90-9a87-6d1affef5cd0 (net d51058a4-277f-4a56-b7a4-0057c09963ef))
+ )
+ (component e771d989-6533-4751-af2a-51d42ba65d4e
+  (lib_component 2cf05ac9-a5b1-4ec7-b4f8-6846688445c1)
+  (lib_variant b526322f-8459-4143-bac7-89dc7234753f)
+  (name "MECH4") (value "{{MPN}}")
+  (lock_assembly false)
+  (device 2bc11d49-49c7-4cf3-b1d9-9096fd7687a0
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
+  )
+ )
+ (component f8b07660-912a-4e92-8b93-97983828f5be
+  (lib_component 2cf05ac9-a5b1-4ec7-b4f8-6846688445c1)
+  (lib_variant b526322f-8459-4143-bac7-89dc7234753f)
+  (name "MECH5") (value "{{MPN}}")
+  (lock_assembly false)
+  (device 2bc11d49-49c7-4cf3-b1d9-9096fd7687a0
+   (variant fbbf89f7-84cd-4807-982a-02d2c6cbe5cb)
+  )
  )
 )

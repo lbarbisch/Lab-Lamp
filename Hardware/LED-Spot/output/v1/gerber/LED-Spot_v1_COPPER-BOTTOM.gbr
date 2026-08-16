@@ -1,6 +1,6 @@
 G04 --- HEADER BEGIN --- *
 G04 #@! TF.GenerationSoftware,LibrePCB,LibrePCB,2.1.0*
-G04 #@! TF.CreationDate,2026-05-25T16:11:16*
+G04 #@! TF.CreationDate,2026-08-16T20:34:57*
 G04 #@! TF.ProjectId,LED-Spot,3c1585ae-4d95-495e-8c35-7f5f3331ca9b,v1*
 G04 #@! TF.Part,Single*
 G04 #@! TF.SameCoordinates*
@@ -12,28 +12,8 @@ G01*
 G75*
 G04 --- HEADER END --- *
 G04 --- APERTURE LIST BEGIN --- *
-G04 #@! TA.AperFunction,ComponentPad*
-%ADD10C,5.7*%
-G04 #@! TD*
 G04 --- APERTURE LIST END --- *
 G04 --- BOARD BEGIN --- *
-D10*
-G04 #@! TO.N,N/C*
-G04 #@! TO.C,H2*
-G04 #@! TO.P,H2,1,1*
-X-18000000Y-6000000D03*
-G04 #@! TO.N,N1*
-G04 #@! TO.C,H4*
-G04 #@! TO.P,H4,1,1*
-X18000000Y-6000000D03*
-G04 #@! TO.N,N5*
-G04 #@! TO.C,H3*
-G04 #@! TO.P,H3,1,1*
-X18000000Y6000000D03*
-G04 #@! TO.N,N/C*
-G04 #@! TO.C,H1*
-G04 #@! TO.P,H1,1,1*
-X-18000000Y6000000D03*
 G04 --- BOARD END --- *
-G04 #@! TF.MD5,3d087e8025f5e8ef19234160606c8233*
+G04 #@! TF.MD5,b876ada1e478532873107d2f55578300*
 M02*

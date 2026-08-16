@@ -1,6 +1,6 @@
 M48
 ; #@! TF.GenerationSoftware,LibrePCB,LibrePCB,2.1.0
-; #@! TF.CreationDate,2026-05-25T16:11:16
+; #@! TF.CreationDate,2026-08-16T20:34:57
 ; #@! TF.ProjectId,LED-Spot,3c1585ae-4d95-495e-8c35-7f5f3331ca9b,v1
 ; #@! TF.Part,Single
 ; #@! TF.SameCoordinates
@@ -9,16 +9,29 @@ FMAT,2
 METRIC,TZ
 ; #@! TA.AperFunction,MechanicalDrill
 T1C2.0
+; #@! TA.AperFunction,MechanicalDrill
+T2C3.2
 %
 G90
 G05
 M71
 T1
-X-13.682909Y-3.6
-X-6.235091Y-7.9
-X6.235091Y-7.9
-X13.682909Y-3.6
-X-4.3Y11.5
-X4.3Y11.5
+X4.3Y-20.0
+X-4.3Y-20.0
+X19.471Y-6.276091
+X15.171Y-13.723909
+X4.3Y20.0
+X-4.3Y20.0
+X-19.471Y-6.276091
+X-15.171Y-13.723909
+X15.171Y13.723909
+X19.471Y6.276091
+X-15.171Y13.723909
+X-19.471Y6.276091
+T2
+X0.0Y-8.0
+X0.0Y8.0
+X-22.0Y0.0
+X22.0Y0.0
 T0
 M30
