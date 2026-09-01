@@ -1,6 +1,6 @@
 G04 --- HEADER BEGIN --- *
-G04 #@! TF.GenerationSoftware,LibrePCB,LibrePCB,2.1.0*
-G04 #@! TF.CreationDate,2026-08-16T21:20:06*
+G04 #@! TF.GenerationSoftware,LibrePCB,LibrePCB,2.1.1*
+G04 #@! TF.CreationDate,2026-08-29T23:07:21*
 G04 #@! TF.ProjectId,Lab-Lamp,1f94bfc4-d831-43e1-86c0-4bc184f53f1f,v1*
 G04 #@! TF.Part,Single*
 G04 #@! TF.SameCoordinates*
@@ -15,5 +15,5 @@ G04 --- APERTURE LIST BEGIN --- *
 G04 --- APERTURE LIST END --- *
 G04 --- BOARD BEGIN --- *
 G04 --- BOARD END --- *
-G04 #@! TF.MD5,ceade722e580466873efcd4dafe798dd*
+G04 #@! TF.MD5,1787ae46cfd3622d45ff00a830fd7a51*
 M02*
